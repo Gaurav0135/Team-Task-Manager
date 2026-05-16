@@ -1,13 +1,39 @@
+### Node
 node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+### Build outputs
 dist/
+build/
+client/dist/
+client/.vite/
+
+### Environment files
 .env
+.env.local
+.env.*.local
 server/.env
-client/node_modules/
-/.idea
-.vscode
-npm-debug.log
-yarn-error.log
-/*.local
-node_modules
-.env
-dist
+client/.env
+
+### Logs
+logs/
+*.log
+
+### OS
+.DS_Store
+Thumbs.db
+
+### IDEs
+.vscode/
+.idea/
+
+### Coverage
+coverage/
+
+### Misc
+*.tgz
+
+# Keep .env.example tracked for developer setup
