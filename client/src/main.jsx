@@ -2,7 +2,11 @@ import React from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import App from './App'
+<<<<<<< HEAD
 import './styles.css'
+=======
+import './index.css'
+>>>>>>> phase-3
 import { AuthProvider } from './context/AuthContext'
 
 createRoot(document.getElementById('root')).render(
